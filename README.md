@@ -55,7 +55,7 @@ This class method should return all `Artist` instances.
 
 #### `Artist#add_song`
 
-This instance method exists to tell a pased in `Song` instance it belongs to
+This instance method exists to tell a passed in `Song` instance it belongs to
 _this_ `Artist` instance.
 
 #### `Artist#songs`
