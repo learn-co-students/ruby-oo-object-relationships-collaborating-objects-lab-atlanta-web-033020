@@ -1,3 +1,4 @@
+require 'pry'
 describe 'Artist' do
 
   before(:example) {
@@ -37,6 +38,8 @@ describe 'Artist' do
       piano_man = Song.new("Piano Man")
       dirty_diana.artist = artist
       billie_jean.artist = artist
+      # puts "hello world"
+      # binding.pry
       expect(artist.songs).to eq([dirty_diana, billie_jean])
     end
   end
